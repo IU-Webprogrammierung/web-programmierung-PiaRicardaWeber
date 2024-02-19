@@ -1,8 +1,5 @@
 body {
-    background-color: black;
-}
-@media screen {
-    min-width: 480px;
+    background-color:black;
 }
 h1 {
     color: antiquewhite;
