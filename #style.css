@@ -11,8 +11,22 @@ h1 {
 }
 h2 {
     color: antiquewhite;
-    text-align: ;
+    text-align: center;
     font-family: monospace;
-    text-transform: uppercase;
-    font-size: 54px;
+    text-transform: none;
+    font-size: 45px;
+}
+h3{
+    color: antiquewhite;
+    text-align: center;
+    font-family: monospace;
+    text-transform: none;
+    font-size: 35px;
+}
+p{
+    color: antiquewhite;
+    text-align: left;
+    font-family: monospace;
+    text-transform: none;
+    font-size: 20px;
 }
