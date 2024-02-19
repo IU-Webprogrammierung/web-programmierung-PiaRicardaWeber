@@ -1,33 +1,36 @@
 body {
     background-color: black;
 }
+@media screen {
+    min-width: 480px;
+}
 h1 {
     color: antiquewhite;
     text-align: center;
     font-family: monospace;
     text-transform: uppercase;
-    font-size: 54px;
+    font-size: 25px;
 }
 h2 {
     color: antiquewhite;
     text-align: center;
     font-family: monospace;
     text-transform: none;
-    font-size: 45px;
+    font-size: 20px;
 }
 h3{
     color: antiquewhite;
     text-align: center;
     font-family: monospace;
     text-transform: none;
-    font-size: 35px;
+    font-size: 18px;
 }
 p{
     color: antiquewhite;
     text-align: left;
     font-family: monospace;
     text-transform: none;
-    font-size: 20px;
+    font-size: 12px;
 }
 .topnav {
     overflow: hidden;
