@@ -39,8 +39,9 @@ article {
 img {
   height: 300px;
   width: auto;
-  text-align: center;
+  align-content: center;
 }
+
   a:link {
     color:lightpink;
   }
