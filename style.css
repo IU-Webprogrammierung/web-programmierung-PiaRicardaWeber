@@ -39,11 +39,15 @@ article {
 img {
   height: 300px;
   width: auto;
-  align-content: center;
+  align-items: center;
 }
 
   a:link {
-    color:lightpink;
+  color:lightpink;
+  padding-top: 50px;
+  padding-right: 25px;
+  padding-bottom: 30px;
+  padding-left: 25px;
   }
   a:visited {
     color:violet;
@@ -61,4 +65,13 @@ ul {
   padding-bottom: 30px;
   padding-left: 25px;
   text-align: center;
+  list-style: none;
+}
+footer{
+  background-color:rgb(57, 57, 57);
+  color:white;
+}
+header{
+  background-color: black;
+  color: white;
 }
