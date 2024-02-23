@@ -9,31 +9,17 @@
 <body>
    
 
-        
-        <div class="topnav">
-          <a href="#home" class="active">Start</a>
-          <div id="myLinks">
-            <a href="#Biografie">Biografie</a>
-            <a href="#Orchester">Orchester</a>
-            <a href="#Projekte">Projekte</a>
-            <a href="#Kontakt">Kontakt</a>
-          </div>
-          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-            <i class="fa fa-bars"></i>
-          </a>
-        </div>
-        </div>
-        
-        <script>
-        function myFunction() {
-          var x = document.getElementById("myLinks");
-          if (x.style.display === "block") {
-            x.style.display = "none";
-          } else {
-            x.style.display = "block";
-          }
-        }
-        </script>
+    <nav>
+      <div class="logo"></div>
+        <div class="openMenu"><i class="fa fa-bars"></i></div>
+        <ul class="Menü">
+        <li><a href="biografie">Biografie</a></li>
+        <li><a href="orchester">Orchester</a></li>
+        <li><a href="projekte">Projekte</a></li>
+        <li><a href="kontakt">Kontakt</a></li>
+        <div class="closeMenü"><i class="fa fa-times"></i></div>
+      </ul>
+    </nav>
     <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button> 
     <h1>Pia Ricarda Weber</h1>
     <h2>Klarinettistin</h2>

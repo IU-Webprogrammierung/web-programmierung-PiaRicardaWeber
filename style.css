@@ -29,23 +29,58 @@ p{
     text-transform: none;
     font-size: 15px;
 }
-.topnav {
-    overflow: hidden;
-    background-color: black;
-    font-family: verdana;
-  }
-  .topnav a {
-    float: left;
-    display: block;
-    color:white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-  .topnav a:hover {
-    background-color:lightpink;
-    color: black;
-  }
+nav {
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+}
+nav .Menü {
+  display: flex;
+  list-style: none;
+}
+nav .Menü li a {
+  display: inline-block;
+  padding: 15px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+  font-size: 15px;
+}
+nav .Menü li a:hover{
+  color: deeppink;
+}
+nav .openMenü {
+  font-size: 15px;
+  margin: 20px;
+  display: none;
+  cursor: pointer;
+}
+@media(max-width:480px){
+nav .Menü {
+  height: 100vh;
+  position:fixed ;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 10;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  transition: top 1s ease;
+  display: none;
+}
+nav .Menü .closemenü {
+  display: block;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+nav .openMenü {
+  display: block;
+}
+}
   a:link {
     color:lightpink;
   }
