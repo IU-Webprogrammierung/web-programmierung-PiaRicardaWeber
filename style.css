@@ -29,57 +29,17 @@ p{
     text-transform: none;
     font-size: 15px;
 }
-nav {
-  background-color: black;
+article {
   color: white;
-  display: flex;
-  justify-content: space-between;
+    text-align: left;
+    font-family: arial;
+    text-transform: none;
+    font-size: 15px;
 }
-nav .Menü {
-  display: flex;
-  list-style: none;
-}
-nav .Menü li a {
-  display: inline-block;
-  padding: 15px;
-  text-decoration: none;
-  text-transform: uppercase;
-  color: white;
-  font-size: 15px;
-}
-nav .Menü li a:hover{
-  color: deeppink;
-}
-nav .openMenü {
-  font-size: 15px;
-  margin: 20px;
-  display: none;
-  cursor: pointer;
-}
-@media(max-width:480px){
-nav .Menü {
-  height: 100vh;
-  position:fixed ;
-  top: 0;
-  right: 0;
-  left: 0;
-  z-index: 10;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background-color: black;
-  transition: top 1s ease;
-  display: none;
-}
-nav .Menü .closemenü {
-  display: block;
-  position: absolute;
-  top: 20px;
-  right: 20px;
-}
-nav .openMenü {
-  display: block;
-}
+img {
+  height: 300px;
+  width: auto;
+  text-align: center;
 }
   a:link {
     color:lightpink;
@@ -99,4 +59,5 @@ ul {
   padding-right: 25px;
   padding-bottom: 30px;
   padding-left: 25px;
+  text-align: center;
 }
