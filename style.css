@@ -39,7 +39,7 @@ article {
 img {
   height: 300px;
   width: auto;
-  align-items: center;
+  position: relative;
 }
 
   a:link {
@@ -102,7 +102,7 @@ header{
 }
 .sliderElements {
   position: relative;
-  left: 0;
+  left: 30px;
 }
 
 .slider input:nth-of-type(2):checked ~ .sliderElements {
@@ -144,9 +144,10 @@ header{
 .sliderElements {
     list-style: none;
     position: relative;
-    left: 0;
+    left: 30px;
     width: 600%;
     margin-bottom: .8em;
+    margin-left: 30px;
     padding: 0;
     -webkit-transition: left .8s ease-in-out;
     -moz-transition: left .8s ease-in-out;
@@ -156,7 +157,7 @@ header{
  
 .sliderElements > li {
     float: left;
-    width: 25%;
+    width: 16%;
     position: relative;
 }
  
@@ -185,7 +186,7 @@ header{
     left: 0;
     bottom: 1em;
     padding: .4em;
-    background: rgba(0,0,0,.5);
+    background:none;
     font-family: Verdana,sans-serif;
 }
  
@@ -233,6 +234,6 @@ header{
 #slide04:checked ~ .sliderControls label[for="slide04"]
 #slide05:checked ~ .sliderControls label[for="slide05"] 
 #slide06:checked ~ .sliderControls label[for="slide06"]  {
-    background: #ddd;
-    color: #ddd;
+    background: white;
+    color: white;
 }
