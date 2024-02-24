@@ -2,10 +2,12 @@ body {
     background-color:black;
 }
 h1 {
-    color: white;
+    color:white;
     text-align: center;
-    font-family: 'verdana';
+    font-family:'verdana';
     text-transform: uppercase;
+    font-style: italic;
+    font-weight: bold;
     font-size: 30px;
 }
 h2 {
@@ -236,4 +238,15 @@ header{
 #slide06:checked ~ .sliderControls label[for="slide06"]  {
     background: white;
     color: white;
+}
+#topBtn {
+  position:relative;
+  bottom: 0;
+  color: lightpink;
+  background-color: black;
+  text-align: right;
+  
+}
+#topBtn:hover {
+  background-color: deeppink;
 }
