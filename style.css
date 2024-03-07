@@ -43,6 +43,11 @@ img {
   width: auto;
   position: relative;
 }
+#Hauptbild{
+  height: auto;
+  width: 100%;
+
+}
 
   a:link {
   color:lightpink;
@@ -77,6 +82,7 @@ header{
   background-color: black;
   color: white;
   position: initial;
+  scroll-behavior: revert;
 }
 .slider {
   overflow-x: hidden;
