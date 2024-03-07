@@ -192,7 +192,6 @@ header{
 #slide06:checked ~ .sliderElements {
   left: -500%;
 }
-
 .sliderElements figcaption {
     display: block;
     color: #fff;
