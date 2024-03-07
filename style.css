@@ -1,6 +1,10 @@
 body {
     background-color:black;
 }
+margin{
+  left: 50px;
+  right: 50px;
+}
 h1 {
     color:white;
     text-align: center;
@@ -16,6 +20,8 @@ h2 {
     font-family: verdana;
     text-transform: none;
     font-size: 25px;
+    padding-top: 70px;
+    padding-bottom: 50px;
 }
 h3{
     color: white;
@@ -67,7 +73,7 @@ img {
     color:deeppink;
   }
 ul {
-  padding-top: 25px;
+  padding-top: 0px;
   padding-right: 25px;
   padding-bottom: 30px;
   padding-left: 25px;
