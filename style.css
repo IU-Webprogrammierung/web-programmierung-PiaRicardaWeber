@@ -1,6 +1,10 @@
 body {
     background-color:black;
 }
+#viewport{
+  width: 480px;
+  zoom:1
+}
 margin{
   left: 50px;
   right: 50px;
