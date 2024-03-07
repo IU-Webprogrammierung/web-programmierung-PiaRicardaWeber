@@ -54,6 +54,12 @@ img {
   width: 100%;
 
 }
+table{
+  color: white;
+  font-family: Verdana;
+  text-align: left;
+  font-size: 15px;
+}
 
   a:link {
   color:lightpink;
