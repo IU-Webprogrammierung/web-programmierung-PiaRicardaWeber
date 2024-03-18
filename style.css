@@ -1,5 +1,7 @@
 body {
     background-color:black;
+    justify-content: center;
+    align-self: center;
 }
 #viewport{
   width: 480px;
@@ -276,6 +278,7 @@ header{
   height: 30px;
   border-radius: 10%;
   box-shadow: none;
+  float: right;
 
 }
 #topBtn:hover {
@@ -409,4 +412,18 @@ header{
 #menuToggle input:checked ~ ul
 {
   transform: none;
+}
+#kontaktbild{
+  float: left;
+  width: auto;
+}
+.wrapper{
+  margin: 150px auto;
+  width: 90%;
+}
+
+.Text p{
+font-size: 90%;
+float: right;
+position: absolute;
 }
