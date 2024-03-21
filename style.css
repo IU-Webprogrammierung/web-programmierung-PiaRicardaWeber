@@ -66,12 +66,14 @@ video{
   height: 500px; 
   text-align: center;
   display: block;
+  margin: auto;
 }
 table{
   color: white;
   font-family: Verdana;
   text-align: left;
   font-size: 90%;
+  margin: auto;
 }
 
   a:link {
