@@ -91,8 +91,13 @@ table{
   text-align: left;
   font-size: 90%;
   margin: auto;
+  columns: 2;
+  padding: 15%;
+  border-spacing: 8px;
 }
-
+th{
+  text-decoration: underline;
+}
   a:link {
   color:lightpink;
   padding-top: 50px;
@@ -288,7 +293,7 @@ header{
 #slide05:checked ~ .sliderControls label[for="slide05"] 
 #slide06:checked ~ .sliderControls label[for="slide06"]  {
     background: white;
-    color: white;
+    color: #ffffff;
 }
 #topBtn {
   position:fixed;
@@ -303,7 +308,7 @@ header{
 
 }
 #topBtn:hover {
-  background-color: deeppink;
+  background-color: #ff1493;
 }
 #menuToggle
 {
