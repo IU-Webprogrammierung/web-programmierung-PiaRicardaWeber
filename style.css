@@ -415,33 +415,26 @@ header{
 {
   transform: none;
 }
-
-@media only screen and (max-device-width: 1024px) {
-  body{
-    background-color: black;
-    color: white;
-    font-size: 20px;
-  }
+@media screen 
+  and (min-device-width: 801px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) { 
 }
-@media only screen and (max-device-width: 480px) {
-  body{
-    background-color: black;
-    color: white;
-    font-size: 15px;
-   
-  }
-  }
-.flex-box {
-  display: flex;
-  height: 300px;   
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (orientation: portrait)
+  and (-webkit-min-device-pixel-ratio: 2) {
 }
 
-.flex-item {
-  flex: auto;
-  border-right: 2px solid #000;
-  background: black;
-  flex-grow: 1;
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (orientation: landscape)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
 }
 .content-box{
   columns: 2 auto;
+  column-gap: 3em;
 }
