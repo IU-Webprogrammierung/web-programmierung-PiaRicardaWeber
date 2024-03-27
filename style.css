@@ -3,6 +3,7 @@ body {
     color: white;
     justify-content: center;
     align-self: center;
+    margin:2%;
 }
 #viewport{
   width: 480px;
@@ -427,8 +428,9 @@ header{
     background-color: black;
     color: white;
     font-size: 15px;
+   
   }
-}  
+  }
 .flex-box {
   display: flex;
   height: 300px;   
@@ -438,4 +440,8 @@ header{
   flex: auto;
   border-right: 2px solid #000;
   background: black;
+  flex-grow: 1;
+}
+.content-box{
+  columns: 2 auto;
 }
