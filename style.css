@@ -89,7 +89,7 @@ table{
   color: white;
   font-family: Verdana;
   text-align: left;
-  font-size: 90%;
+  font-size: 100%;
   margin: auto;
   columns: 2;
   padding: 15%;
@@ -97,6 +97,9 @@ table{
 }
 th{
   text-decoration: underline;
+}
+td{
+width: 400px;
 }
   a:link {
   color:lightpink;
