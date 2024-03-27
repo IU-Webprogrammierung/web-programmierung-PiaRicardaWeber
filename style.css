@@ -66,6 +66,8 @@ img {
 	height: 0;
 	overflow: hidden;
   align:center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .responsive-video iframe,  
@@ -76,7 +78,9 @@ img {
 	left: 0;
 	width: 100%;
 	height: 100%;
-  align:center
+  align:center;
+  margin-left: auto;
+  margin-right: auto;
 }
 table{
   color: white;
