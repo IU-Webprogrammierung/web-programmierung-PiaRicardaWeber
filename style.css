@@ -9,9 +9,12 @@ body {
   width: 480px;
   zoom:1
 }
-margin{
-  left: 50%;
-  right: 50%;
+.gridLayout{
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+  margin-left: 50%;
+  margin-right: 50%;
 }
 h1 {
     text-align: center;
