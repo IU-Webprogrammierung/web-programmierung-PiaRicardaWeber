@@ -1,6 +1,6 @@
 body {
-    background-color:black;
-    color: white;
+    background-color:#000000;
+    color: #ffffff;
     justify-content: center;
     align-self: center;
     margin:2%;
@@ -17,6 +17,7 @@ h1 {
     font-style:initial;
     font-weight: bold;
     font-size: 400%;
+    margin-top: 40px;
 }
 h2 {
     text-align: center;
@@ -57,10 +58,10 @@ img {
 
 }
 #responsive-video {
-	position: relative;
+	position:relative;
 	padding-bottom: 56%; 
 	padding-top: 30px;
-	height: 0;
+	height: 50px;
 	overflow: hidden;
   align:center;
   margin-left: auto;
@@ -70,7 +71,7 @@ img {
 .responsive-video iframe,  
 .responsive-video object,  
 .responsive-video embed {
-	position: absolute;
+	position: center;
 	top: 0;
 	left: 0;
 	width: 100%;
@@ -80,12 +81,11 @@ img {
   margin-right: auto;
 }
 table{
-  color: white;
   font-family: Verdana;
   text-align: left;
   font-size: 100%;
   margin: auto;
-  columns: 2;
+  columns: 3;
   padding: 5%;
   border-spacing: 8px;
   margin-top: 5%;
@@ -93,22 +93,23 @@ table{
 th{
   text-decoration: underline;
   font-size: large;
+  font-weight: bold;
 }
 td{
 width: 400px;
 }
   a:link {
-  color:lightpink;
+  color:#ffb6c1;
   padding-top: 50px;
   padding-right: 25px;
   padding-bottom: 30px;
   padding-left: 25px;
   }
   a:visited {
-    color:violet;
+    color:#ee82ee;
   }
   a:hover {
-    color:deeppink;
+    color:#ff1493;
     text-decoration: underline;
   }
   a:active {
@@ -123,7 +124,7 @@ ul {
   list-style: none;
 }
 footer{
-  background-color:rgb(57, 57, 57);
+  background-color:#393939;
   padding: 5px;
 }
 header{
@@ -199,7 +200,7 @@ header{
 .sliderElements {
     list-style: none;
     position: relative;
-    left: 30px;
+    left: 10px;
     width: 600%;
     margin-bottom: .8em;
     margin-left: 15px;
