@@ -9,13 +9,7 @@ body {
   width: 480px;
   zoom:1
 }
-.gridLayout{
-  display: grid;
-  grid-template-columns: auto;
-  grid-template-rows: auto;
-  margin-left: 50%;
-  margin-right: 50%;
-}
+
 h1 {
     text-align: center;
     font-family:'times new Roman';
@@ -92,12 +86,13 @@ table{
   font-size: 100%;
   margin: auto;
   columns: 2;
-  padding: 15%;
+  padding: 5%;
   border-spacing: 8px;
   margin-top: 5%;
 }
 th{
   text-decoration: underline;
+  font-size: large;
 }
 td{
 width: 400px;
@@ -129,12 +124,10 @@ ul {
 }
 footer{
   background-color:rgb(57, 57, 57);
-  color:white;
   padding: 5px;
 }
 header{
   background-color: black;
-  color: white;
   position: initial;
   scroll-behavior: revert;
 }
@@ -308,7 +301,8 @@ header{
   height: 30px;
   border-radius: 10%;
   box-shadow: none;
-  float: right;
+  align: right;
+  padding: 5px;
 
 }
 #topBtn:hover {
@@ -448,12 +442,26 @@ header{
   and (min-device-width: 801px) 
   and (max-device-width: 1024px) 
   and (-webkit-min-device-pixel-ratio: 1) { 
+    .gridLayout{
+      display: grid;
+      grid-template-columns: 8,3% 8,3% 8,3% 8,3% 8,3% 8,3% 8,3% 8,3% 8,3% 8,3% 8,3% 8,3%;
+      grid-template-rows: auto;
+      margin-left: 50%;
+      margin-right: 50%;
+    }
 }
 @media only screen 
   and (min-device-width: 320px) 
   and (max-device-width: 480px)
   and (orientation: portrait)
   and (-webkit-min-device-pixel-ratio: 2) {
+    .gridLayout{
+      display: grid;
+      grid-template-columns:25% 25% 25% 25%;
+      grid-template-rows: auto;
+      margin-left: 50%;
+      margin-right: 50%;
+    }
 }
 
 @media only screen 
@@ -461,6 +469,13 @@ header{
   and (max-device-width: 480px)
   and (orientation: landscape)
   and (-webkit-min-device-pixel-ratio: 2) {
+    .gridLayout{
+      display: grid;
+      grid-template-columns:25% 25% 25% 25%;
+      grid-template-rows: auto;
+      margin-left: 50%;
+      margin-right: 50%;
+    }
 
 }
 .content-box{
