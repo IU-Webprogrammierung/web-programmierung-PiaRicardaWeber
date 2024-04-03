@@ -203,8 +203,8 @@ header{
     left: 10px;
     width: 600%;
     margin-bottom: .8em;
-    margin-left: 15px;
-    padding: 10%;
+    margin: left 20px; 
+    padding: 10%; 
     -webkit-transition: left .8s ease-in-out;
     -moz-transition: left .8s ease-in-out;
     -o-transition: left .8s ease-in-out;
@@ -287,8 +287,8 @@ header{
 #slide01:checked ~ .sliderControls label[for="slide01"],
 #slide02:checked ~ .sliderControls label[for="slide02"],
 #slide03:checked ~ .sliderControls label[for="slide03"],
-#slide04:checked ~ .sliderControls label[for="slide04"]
-#slide05:checked ~ .sliderControls label[for="slide05"] 
+#slide04:checked ~ .sliderControls label[for="slide04"],
+#slide05:checked ~ .sliderControls label[for="slide05"], 
 #slide06:checked ~ .sliderControls label[for="slide06"]  {
     background: white;
     color: #ffffff;
